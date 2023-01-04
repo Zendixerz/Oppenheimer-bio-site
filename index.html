@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+    <title>BIO</title>
+</head>
+<body>
+  <div id="header">
+    <video autoplay loop muted play-inline class="back-video">
+        <source src="sun.mp4" type="video/mp4">
+    </video>
+    <div class="container">
+        <nav>
+        
+        <ul id="sidemenu">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+            <i class=" fas fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+        </ul>
+        
+        <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>J. Robert Oppenhimer</p>
+          <h1>The father of the bomb</h1>
+        </div>
+    </div>
+  </div>
+  <div id="about">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="openhime.jpg">
+        </div>
+        <div class="about-col-2">
+          <h1 class="subtitle">ABOUT</h1>
+          <p>
+            J. Robert Oppenhimer also  known as Julius Robert Openhimer was born on April 22nd, 1904 in New york 
+            and died later in February 18, 1967 Princeton, New Jersey. He was an American theoratical physicist who was popularly known as the father of the atomic bomb or the
+            head of the Manhattan project. He was the son of German immigrant who made his wealth by importing textiles in New York.
+           </p>
+           <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('achivemnets')">Achivemnets</p>
+           </div>
+           <div class="tab-contents active-tab" id="education">
+            <ul>
+              <li>
+                <span>University:</span><br>Oppenhimer went to Harvard for his studies and he excelled inLatin, Greek, physics, and chemistry, published poetry, and studied Eastern philosophy.</li>
+                <li><span>Gradutation:<br></span>J. Robert Oppenhimer graduated from Harvard in 1925 and he sailed to England  to do research at the Cavendish Laboratory at the University of Cambridge </li>
+                <li><span>Continiuation:</span><br>Oppenhimer under the leadership of Lord Ernest Rutherford, had an international reputation for its pioneering studies on atomic structure.</li>
+            </ul>
+           </div>
+
+           <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>Studies:</span><br> In Harvard University  Oppenheimer studied mathematics and science, philosophy and Eastern religion, and French and English literature. He was admitted to graduate standing in physics in his first year as an undergraduate on the basis of independent study. </li>
+              <li><span>Cambrige University:</span><br>In the Cavendish Laboratory of University of Cambridge, Oppenheimer had the opportunity to collaborate with the British scientific community in its efforts to advance the cause of atomic research.</li>
+              <li><span>Physicists:</span><br>Oppenheimer was later invited to University of Göttingen by Max Born and there he met distinguished physicist such as  Niels Bohr and P.A.M. Dirac</li>
+            </ul>
+           </div>
+           <div class="tab-contents" id="achivemnets">
+            <ul>
+              <li><span>Doctarate:</span><br>In the year of 1927, Oppenheimer recievd his Doctarate.</li>
+              <li><span>University of Calofornia:</span><br>After short visits at science centres in Leiden and Zürich, he returned to the United States to teach physics at the University of California at Berkeley and the California Institute of Technology.</li>
+              <li><span>Atomic bomb</span>Oppenheimer oversaw the construction of the Los Alamos laboratory, where he gathered the best minds in physics to work on the problem of creating an atomic bomb. Because of his leadership in this project, he is often referred to as the “father” of the atomic bomb.</li>
+            </ul>
+           </div>
+        </div>
+    </div>
+  </div>
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-bomb"></i>
+          <h2>Manhattan Project</h2>
+          <p>J. Robert Oppenheimer lead the Manhattan project(atomic bomb) as the head which ultimatelly made people beleive he was the father of the atomic bomb.
+          </p>
+          <a href="https://en.wikipedia.org/wiki/J._Robert_Oppenheimer#:~:text=A%20professor%20of%20physics%20at,developed%20the%20first%20nuclear%20weapons.">LEARN MORE</a>
+        </div>
+        <div>
+          <i class="fa-thin fa-circle-xmark"></i>
+          <h2>United States Atomic Energy Commission</h2>
+          <p>After the war of the USA and Japan, Oppenheimer became chairman of the influential General Advisory Committee of the newly created United States Atomic Energy Commission.</p>
+          <a href="https://en.wikipedia.org/wiki/United_States_Atomic_Energy_Commission">LEARN MORE</a>
+        </div>
+        <div>
+          <i class="fa-thin fa-paper-plane"></i>
+          <h2>Degree</h2>
+          <p>Oppenheimer obtained his Doctor of Philosophy degree in March 1927 at age 23, supervised by Born.</p>
+          <a href="https://en.wikipedia.org/wiki/J._Robert_Oppenheimer#:~:text=A%20professor%20of%20physics%20at,developed%20the%20first%20nuclear%20weapons.">LEARN MORE</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="subt-title">Works of Oppenheimer</h1>
+      <div class="work-list">
+        <div class="work" >
+          <img src="ab.jpg" style="width: 100%;">
+          <div class="layer">
+            <h3>Nuclear Weapon</h3>
+            <p>J. Robert Oppenheimer oversaw the construction of the Los Alamos laboratory, where he gathered the best minds in physics to work on the problem of creating an atomic bomb. Because of his leadership in this project, he is often referred to as the “father” of the atomic bomb.</p>
+            <a href="https://en.wikipedia.org/wiki/J._Robert_Oppenheimer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="qt.avif" style="width: 100%;">
+          <div class="layer">
+            <h3>Quantom tunneling</h3> 
+            <p>Oppenheimer made the first prediction of quantom tunneling.</p>
+            <a href="https://en.wikipedia.org/wiki/J._Robert_Oppenheimer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="bn.jpg" style="width: 100%;">
+          <div class="layer">
+          <h3>Black holes & Neuron stars</h3>
+          <p>Oppenheimer along with his studends have made the modern theory of black holes and neuron stars. The curious thing about the black hole research is that it was inspired by an idea that turned out to be entirely wrong.</p>
+          <a href="https://en.wikipedia.org/wiki/J._Robert_Oppenheimer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+        </div>
+      </div>
+      <a href="#" class="btn">See more</a>
+    </div>
+  </div>
+
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1>Contact the creator of the Website</h1>
+          <p><i class="fa-regular fa-paper-plane"></i>fakemail@example.com</p>
+          <p><i class="fa-solid fa-phone"></i></i>01233456789</p>
+         <div class="social-icons">
+          <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://www.whatsapp.com/"><i class="fa-brands fa-square-twitter"></i></a>
+         </div>
+         <a href="openhime.jpg" download="" class="btn btn2">Download Openheimer's Photo</a>
+        </div>
+        <div class="contact-right">
+          <form>
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>@copyrightmadebyAditya<i class="fa-solid fa-gun"></i>by him  and also with the help of tutorials</p>
+    </div>
+  </div>
+   <script src="scirpt.js"></script>
+   <script src="https://kit.fontawesome.com/4f5fa47c27.js" crossorigin="anonymous"></script>
+</body>
+</html>
